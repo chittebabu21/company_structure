@@ -57,7 +57,7 @@ public class BusinessLead extends BusinessEmployee {
     }
 
     public String getTeamStatus() {
-        return this.headCount + " staffs report to " + getName();
+        return this.team.size() + " staffs report to " + getName();
     }
 
     @Override
